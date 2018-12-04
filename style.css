@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.main ul {
+  list-style-type: none;
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.main li {
+  font-size: 40px;
+  padding: 10px 15px;
+}
+
+.main li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main li:nth-child(1) {
+  background-color: crimson;
+}
+
+.main li:nth-child(2) {
+  background-color: #cfdc14;
+}
+
+.main li:nth-child(3) {
+  background-color: #14dc14;
+}
+
+.main li:nth-child(4) {
+  background-color: #14dcc1;
+}
+
+.main div.box {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main div.box h1 {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+}
+
+.main #div1 {
+  background-color: crimson;
+}
+
+.main #div2 {
+  background-color: #cfdc14;
+}
+
+.main #div3 {
+  background-color: #14dc14;
+}
+
+.main #div4 {
+  background-color: #14dcc1;
+}
+/*# sourceMappingURL=style.css.map */
